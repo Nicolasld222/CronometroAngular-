@@ -1,0 +1,39 @@
+
+.Informacion{
+    font-size: 30px;
+}
+.cronometro-container {
+    display: flex;
+    padding: 100px;
+    margin: 100px 300px;
+    font-family: system-ui, Arial, sans-serif;
+    background-color: blue;
+    border-radius: 25px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tiempo {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem; 
+}
+
+.botones {
+  display: flex; 
+  gap: 10px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  background-color: #f0f0f0; 
+  cursor: pointer; 
+}
+
+button:active {
+  background-color: #ddd;
+}
